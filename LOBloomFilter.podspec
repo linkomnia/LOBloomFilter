@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '5.0'
   s.requires_arc = true
 
-  s.source_files = 'LOBloomFilter.{h,m}', 'fnv/fnv.h', 'fnv/hash_{32,64}{,a}.c'
+  s.source_files = 'LOBloomFilter.{h,m}', 'fnv/fnv.h', 'fnv/longlong.h', 'fnv/hash_{32,64}{,a}.c'
 
   s.public_header_files = 'LOBloomFilter.h'
 end
