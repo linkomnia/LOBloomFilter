@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface LOBloomFilter : NSObject
+@interface LOBloomFilter : NSObject <NSCoding>
 @property (nonatomic, readonly, assign) NSUInteger bits;
 
 - (id)initWithCapacity:(NSUInteger)bits;
